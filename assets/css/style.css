@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+/* 
+=== DOCUMENT STYLE === */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+/* === END DOCUMENT STYLE === */
+
+/* 
+=== CONTAINER STYLE === */
+.container {
+  padding: 60px;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+/* === END CONTAINER STYLE === */
+
+/* 
+=== DISCOUNT STYLE === */
+.discount {
+  margin: 5px 10px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 215px;
+}
+
+.discount h2 {
+  background: #000;
+  color: #fff;
+  padding: 2px 4px 2px 4px;
+  font-size: 14px;
+}
+/* === END DISCOUNT STYLE === */
+
+/* 
+=== HEART ICON STYLE === */
+.heart_icon {
+  width: 18px;
+}
+/* === END HEART ICON STYLE === */
+
+/* 
+=== ARTICLE STYLE === */
+.article {
+  border: 1px solid #000;
+  border-radius: 5px;
+  overflow: hidden;
+  height: 299px;
+}
+
+.article img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+/* === END ARTICLE STYLE === */
+
+/* 
+=== INFO ARTICLE STYLE === */
+.info .description h1 {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.info .description h2 {
+  font-size: 15px;
+  font-weight: 500;
+  opacity: 0.8;
+}
+
+.info .description p {
+  font-size: 13px;
+  font-weight: 300;
+}
+
+.info .description .price span:nth-child(1) {
+  text-decoration: line-through green 1px;
+  font-weight: 300;
+}
+
+.info .description .price span:nth-child(2) {
+  font-size: 18px;
+  font-weight: 700;
+  display: inline;
+}
+/* === END INFO ARTICLE STYLE === */
